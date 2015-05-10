@@ -1,0 +1,137 @@
+/* line 3, ../sass/bar8.scss */
+.bar8 {
+  height: 200px;
+  width: 250px;
+  margin: 50px auto;
+  background: transparent;
+}
+/* line 8, ../sass/bar8.scss */
+.bar8 div {
+  height: 60px;
+  width: 20px;
+  display: inline-block;
+  position: relative;
+  background: transparent;
+  -moz-border-radius-topleft: 50px;
+  -webkit-border-top-left-radius: 50px;
+  border-top-left-radius: 50px;
+  -moz-border-radius-topright: 50px;
+  -webkit-border-top-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+@-moz-keyframes wei {
+  0% {
+    background: #2187e7;
+  }
+  100% {
+    background: transparent;
+  }
+}
+@-webkit-keyframes wei {
+  0% {
+    background: #2187e7;
+  }
+  100% {
+    background: transparent;
+  }
+}
+@keyframes wei {
+  0% {
+    background: #2187e7;
+  }
+  100% {
+    background: transparent;
+  }
+}
+/* line 25, ../sass/bar8.scss */
+.bar8 .bar8-1 {
+  left: 110px;
+  top: 20px;
+  -moz-animation: wei 0.8s linear 0.36s infinite;
+  -webkit-animation: wei 0.8s linear 0.36s infinite;
+  animation: wei 0.8s linear 0.36s infinite;
+}
+/* line 30, ../sass/bar8.scss */
+.bar8 .bar8-2 {
+  left: 121px;
+  top: 36px;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -moz-animation: wei 0.8s linear 0.48s infinite;
+  -webkit-animation: wei 0.8s linear 0.48s infinite;
+  animation: wei 0.8s linear 0.48s infinite;
+}
+/* line 37, ../sass/bar8.scss */
+.bar8 .bar8-3 {
+  left: 109px;
+  top: 75px;
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -moz-animation: wei 0.8s linear 0.6s infinite;
+  -webkit-animation: wei 0.8s linear 0.6s infinite;
+  animation: wei 0.8s linear 0.6s infinite;
+}
+/* line 43, ../sass/bar8.scss */
+.bar8 .bar8-4 {
+  left: 65px;
+  top: 114px;
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -moz-animation: wei 0.8s linear 0.72s infinite;
+  -webkit-animation: wei 0.8s linear 0.72s infinite;
+  animation: wei 0.8s linear 0.72s infinite;
+}
+/* line 49, ../sass/bar8.scss */
+.bar8 .bar8-5 {
+  left: -2px;
+  top: 130px;
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -moz-animation: wei 0.8s linear 0.84s infinite;
+  -webkit-animation: wei 0.8s linear 0.84s infinite;
+  animation: wei 0.8s linear 0.84s infinite;
+}
+/* line 55, ../sass/bar8.scss */
+.bar8 .bar8-6 {
+  left: -68px;
+  top: 114px;
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -moz-animation: wei 0.8s linear 0.96s infinite;
+  -webkit-animation: wei 0.8s linear 0.96s infinite;
+  animation: wei 0.8s linear 0.96s infinite;
+}
+/* line 61, ../sass/bar8.scss */
+.bar8 .bar8-7 {
+  left: -112px;
+  top: 75px;
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -moz-animation: wei 0.8s linear 1.08s infinite;
+  -webkit-animation: wei 0.8s linear 1.08s infinite;
+  animation: wei 0.8s linear 1.08s infinite;
+}
+/* line 67, ../sass/bar8.scss */
+.bar8 .bar8-8 {
+  left: -125px;
+  top: 36px;
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -moz-animation: wei 0.8s linear 1.2s infinite;
+  -webkit-animation: wei 0.8s linear 1.2s infinite;
+  animation: wei 0.8s linear 1.2s infinite;
+}

@@ -1,0 +1,73 @@
+@import "compass/css3";
+
+.bar8{
+	height: 200px;
+	width: 250px;
+	margin: 50px auto;
+	background: transparent;
+	div{
+		height: 60px;
+		width: 20px;
+		display: inline-block;
+		position:relative;
+		background: transparent;
+		@include border-top-left-radius(50px);
+		@include border-top-right-radius(50px);
+		@include keyframes (wei){
+			0%{
+				background: #2187e7;
+			}
+			100%{
+				background: transparent;
+			}
+		}
+	}
+	.bar8-1{
+		left: 110px;
+		top: 20px;
+		@include animation(wei .8s linear .36s infinite);
+	}
+	.bar8-2{
+		left: 121px;
+		top: 36px;
+		@include transform(rotate(45deg));	
+		@include animation(wei .8s linear .48s infinite);
+
+	}
+	.bar8-3{
+		left: 109px;
+		top: 75px;
+		@include transform(rotate(90deg));
+		@include animation(wei .8s linear .6s infinite);
+	}
+	.bar8-4{
+		left: 65px;
+		top: 114px;
+		@include transform(rotate(135deg));
+		@include animation(wei .8s linear .72s infinite);
+	}
+	.bar8-5{
+		left: -2px;
+		top: 130px;
+		@include transform(rotate(180deg));
+		@include animation(wei .8s linear .84s infinite);
+	}
+	.bar8-6{
+		left: -68px;
+		top: 114px;
+		@include transform(rotate(225deg));
+		@include animation(wei .8s linear .96s infinite);
+	}
+	.bar8-7{
+		left: -112px;
+		top: 75px;
+		@include transform(rotate(270deg));
+		@include animation(wei .8s linear 1.08s infinite);
+	}
+	.bar8-8{
+		left: -125px;
+		top: 36px;
+		@include transform(rotate(315deg));
+		@include animation(wei .8s linear 1.2s infinite);
+	}
+}

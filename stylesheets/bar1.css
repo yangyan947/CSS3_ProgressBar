@@ -1,0 +1,70 @@
+/* line 2, ../sass/bar1.scss */
+.bar1 {
+  background: #555;
+  width: 40%;
+  height: 20px;
+  margin: 80px 30%;
+  padding: 10px 0;
+  position: relative;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 10, ../sass/bar1.scss */
+.bar1 span:after {
+  width: 270px;
+  height: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px 0 0 10px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
+  overflow: hidden;
+  -webkit-background-size: 50px;
+  -moz-animation: move 2s linear infinite;
+  -webkit-animation: move 2s linear infinite;
+  animation: move 2s linear infinite;
+}
+@-moz-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+/* line 37, ../sass/bar1.scss */
+.bar1 span {
+  width: 270px;
+  height: 20px;
+  margin-left: 10px;
+  display: block;
+  background-color: #2bc253;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: -webkit-linear-gradient(top, #2bc253 37%, #54f054 69%);
+}

@@ -1,0 +1,75 @@
+/* line 2, ../sass/bar4.scss */
+.bar4 {
+  width: 170px;
+  height: 17px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 7, ../sass/bar4.scss */
+.bar4 div {
+  width: 17px;
+  height: 17px;
+  background: #2187e7;
+  display: inline-block;
+  border-top: 1px solid #111;
+  border-left: 1px solid #111;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+@-moz-keyframes bigMid {
+  0% {
+    opacity: 1;
+    transform: scale(4);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bigMid {
+  0% {
+    opacity: 1;
+    transform: scale(4);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bigMid {
+  0% {
+    opacity: 1;
+    transform: scale(4);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* line 26, ../sass/bar4.scss */
+.bar4 .bar4-1 {
+  -moz-animation: bigMid 1s linear 0.2s infinite;
+  -webkit-animation: bigMid 1s linear 0.2s infinite;
+  animation: bigMid 1s linear 0.2s infinite;
+}
+/* line 29, ../sass/bar4.scss */
+.bar4 .bar4-2 {
+  -moz-animation: bigMid 1s linear 0.1s infinite;
+  -webkit-animation: bigMid 1s linear 0.1s infinite;
+  animation: bigMid 1s linear 0.1s infinite;
+}
+/* line 32, ../sass/bar4.scss */
+.bar4 .bar4-3 {
+  -moz-animation: bigMid 1s linear infinite;
+  -webkit-animation: bigMid 1s linear infinite;
+  animation: bigMid 1s linear infinite;
+}
+/* line 35, ../sass/bar4.scss */
+.bar4 .bar4-4 {
+  -moz-animation: bigMid 1s linear 0.1s infinite;
+  -webkit-animation: bigMid 1s linear 0.1s infinite;
+  animation: bigMid 1s linear 0.1s infinite;
+}
+/* line 38, ../sass/bar4.scss */
+.bar4 .bar4-5 {
+  -moz-animation: bigMid 1s linear 0.2s infinite;
+  -webkit-animation: bigMid 1s linear 0.2s infinite;
+  animation: bigMid 1s linear 0.2s infinite;
+}

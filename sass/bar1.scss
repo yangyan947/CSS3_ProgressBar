@@ -1,0 +1,52 @@
+@import "compass/css3";
+.bar1{
+	background: #555;
+	width: 40%;
+	height: 20px; 
+	margin: 80px 30%;
+	padding: 10px 0;
+	position: relative;
+	@include border-radius(20px);
+	span:after{
+		width: 270px;
+		height: 20px;
+		@include border-radius(10px);
+		margin: 10px 0 0 10px;
+		content: "";
+		position: absolute;
+			top: 0; 
+			left: 0; 
+			bottom: 0; 
+			right: 0;	
+		background-image: 
+		-webkit-gradient(linear, 0 0, 100% 100%, 
+			color-stop(.25, rgba(255, 255, 255, .2)), 
+			color-stop(.25, transparent), 
+			color-stop(.5, transparent), 
+			color-stop(.5, rgba(255, 255, 255, .2)), 
+			color-stop(.75, rgba(255, 255, 255, .2)), 
+			color-stop(.75, transparent), to(transparent) );
+		overflow: hidden;
+		-webkit-background-size:50px;
+		@include animation(move 2s linear infinite);
+		@include keyframes (move){
+			0%{background-position: 0 0;}
+			100%{background-position: 50px 50px;}
+		}
+	}
+	span{
+		width: 270px;
+		height: 20px;
+		margin-left: 10px;
+		display: block;
+		background-color: rgb(43,194,83);
+		@include border-radius(10px);
+		overflow: hidden;
+		background-image: 
+		-webkit-linear-gradient(
+			top,
+			rgb(43,194,83) 37%,
+			rgb(84,240,84) 69%
+			);
+	}
+}

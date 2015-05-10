@@ -1,0 +1,41 @@
+@import "compass/css3";
+.bar4{
+	width: 170px;
+	height: 17px;
+	margin: 0 auto;
+	text-align: center;
+	div{
+		width: 17px;
+		height: 17px;
+		background: #2187e7;
+		display: inline-block;
+		@include keyframes (bigMid){
+			0%{
+				opacity: 1;
+				transform: scale(4);
+			}
+			100%{
+				opacity: 0;
+			}
+		}
+		border-top: 1px solid #111;
+		border-left: 1px solid #111;
+		border-right: 1px solid #333;
+		border-bottom: 1px solid #333;	
+	}
+	.bar4-1{
+			@include animation(bigMid 1s linear .2s infinite);
+		}
+		.bar4-2{
+			@include animation(bigMid 1s linear .1s infinite);
+		}
+		.bar4-3{
+			@include animation(bigMid 1s linear infinite);
+		}
+		.bar4-4{
+			@include animation(bigMid 1s linear .1s infinite);
+		}
+		.bar4-5{
+			@include animation(bigMid 1s linear .2s infinite);
+		}
+}

@@ -1,0 +1,82 @@
+/* line 2, ../sass/bar5.scss */
+.bar5 {
+  width: 170px;
+  height: 17px;
+  margin: 80px auto;
+  text-align: center;
+}
+/* line 7, ../sass/bar5.scss */
+.bar5 div {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+@-moz-keyframes point {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    background: #2187e7;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@-webkit-keyframes point {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    background: #2187e7;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes point {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    background: #2187e7;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+/* line 25, ../sass/bar5.scss */
+.bar5 .bar5-1 {
+  -moz-animation: point 4s ease-out infinite;
+  -webkit-animation: point 4s ease-out infinite;
+  animation: point 4s ease-out infinite;
+}
+/* line 28, ../sass/bar5.scss */
+.bar5 .bar5-2 {
+  -moz-animation: point 4s ease-out 0.3s infinite;
+  -webkit-animation: point 4s ease-out 0.3s infinite;
+  animation: point 4s ease-out 0.3s infinite;
+}
+/* line 31, ../sass/bar5.scss */
+.bar5 .bar5-3 {
+  -moz-animation: point 4s ease-out 0.6s infinite;
+  -webkit-animation: point 4s ease-out 0.6s infinite;
+  animation: point 4s ease-out 0.6s infinite;
+}
+/* line 34, ../sass/bar5.scss */
+.bar5 .bar5-4 {
+  -moz-animation: point 4s ease-out 0.9s infinite;
+  -webkit-animation: point 4s ease-out 0.9s infinite;
+  animation: point 4s ease-out 0.9s infinite;
+}
+/* line 37, ../sass/bar5.scss */
+.bar5 .bar5-5 {
+  -moz-animation: point 4s ease-out 1.2s infinite;
+  -webkit-animation: point 4s ease-out 1.2s infinite;
+  animation: point 4s ease-out 1.2s infinite;
+}

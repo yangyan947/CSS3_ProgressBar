@@ -1,0 +1,87 @@
+/* line 2, ../sass/bar2.scss */
+.bar2 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 9px solid rgba(0, 183, 229, 0.9);
+  border-top: 9px solid transparent;
+  border-left: 9px solid transparent;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0 0 30px #2187e7;
+  -webkit-box-shadow: 0 0 30px #2187e7;
+  box-shadow: 0 0 30px #2187e7;
+  -moz-animation: circle1-1 0.9s linear infinite;
+  -webkit-animation: circle1-1 0.9s linear infinite;
+  animation: circle1-1 0.9s linear infinite;
+}
+@-moz-keyframes circle1-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes circle1-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circle1-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* line 18, ../sass/bar2.scss */
+.bar2-1 {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  top: -118px;
+  border: 9px solid rgba(0, 183, 229, 0.9);
+  border-top: 9px solid transparent;
+  border-left: 9px solid transparent;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0 0 30px #2187e7;
+  -webkit-box-shadow: 0 0 30px #2187e7;
+  box-shadow: 0 0 30px #2187e7;
+  -moz-animation: circle1-2 0.9s linear infinite;
+  -webkit-animation: circle1-2 0.9s linear infinite;
+  animation: circle1-2 0.9s linear infinite;
+}
+@-moz-keyframes circle1-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes circle1-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes circle1-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
